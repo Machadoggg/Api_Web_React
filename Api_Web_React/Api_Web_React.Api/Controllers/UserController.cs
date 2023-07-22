@@ -6,7 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api_Web_React.Api.Controllers
 {
-    [Route("api/user")]
+    [Route("api/[controller]")]
+    [ApiController]
     public class UserController : ControllerBase
     {
         private readonly DataContext _dataContext;
