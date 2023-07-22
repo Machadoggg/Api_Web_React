@@ -3,12 +3,10 @@ using Api_Web_React.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Api_Web_React.Api.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [Route("api/user")]
     public class UserController : ControllerBase
     {
         private readonly DataContext _dataContext;
@@ -19,7 +17,7 @@ namespace Api_Web_React.Api.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet("userlist")]
         public async Task<IActionResult> GetAllUsers()
         {
             try
@@ -34,7 +32,7 @@ namespace Api_Web_React.Api.Controllers
             }
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("getuserbyid/{id:int}")]
         public async Task<IActionResult> GetUserById(int id)
         {
             try
@@ -49,7 +47,7 @@ namespace Api_Web_React.Api.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("createuser")]
         public async Task<IActionResult> CreateAsync(User user)
         {
             try
@@ -65,7 +63,7 @@ namespace Api_Web_React.Api.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpPut("updateuser")]
         public async Task<IActionResult> UpdateAsync(User user)
         {
             try
@@ -81,7 +79,7 @@ namespace Api_Web_React.Api.Controllers
             }
         }
 
-        [HttpDelete("{id:int}")]
+        [HttpDelete("deleteuser/{id:int}")]
         public async Task<IActionResult> DeleteAsync(int id)
         {
             try
