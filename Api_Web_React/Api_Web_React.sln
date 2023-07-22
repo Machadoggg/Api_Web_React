@@ -5,6 +5,12 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_Web_React.Api", "Api_Web_React.Api\Api_Web_React.Api.csproj", "{AC151BAD-7735-4BEC-91F3-8DD6C7360A6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_Web_React.Persisntence", "Api_Web_React.Persisntence\Api_Web_React.Persisntence.csproj", "{7C0CDE22-D82C-42BF-8259-BD1E9E6B32A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_Web_React.Domain", "Api_Web_React.Domain\Api_Web_React.Domain.csproj", "{AE8CC17E-C3A1-4506-ABC2-8AF0C441C44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_Web_React.Services", "Api_Web_React.Services\Api_Web_React.Services.csproj", "{D32FE12A-93B8-475F-8CBA-54DD9813E8FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{AC151BAD-7735-4BEC-91F3-8DD6C7360A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC151BAD-7735-4BEC-91F3-8DD6C7360A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC151BAD-7735-4BEC-91F3-8DD6C7360A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0CDE22-D82C-42BF-8259-BD1E9E6B32A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0CDE22-D82C-42BF-8259-BD1E9E6B32A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0CDE22-D82C-42BF-8259-BD1E9E6B32A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0CDE22-D82C-42BF-8259-BD1E9E6B32A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8CC17E-C3A1-4506-ABC2-8AF0C441C44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8CC17E-C3A1-4506-ABC2-8AF0C441C44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8CC17E-C3A1-4506-ABC2-8AF0C441C44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8CC17E-C3A1-4506-ABC2-8AF0C441C44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32FE12A-93B8-475F-8CBA-54DD9813E8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32FE12A-93B8-475F-8CBA-54DD9813E8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32FE12A-93B8-475F-8CBA-54DD9813E8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32FE12A-93B8-475F-8CBA-54DD9813E8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
